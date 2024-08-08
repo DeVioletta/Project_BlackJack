@@ -25,12 +25,13 @@ function startGame() {
     startEl.style.display = 'none'
     gameButtonEl.style.display = 'flex';
     balanceEl.style.display = 'none'
+
+    messageEl.textContent = "Draw a new card???"
     firstCard = getRandomCard()
     secondCard = getRandomCard()
     cards = [firstCard, secondCard]
     sum = firstCard + secondCard;
     isAlive = true
-    console.log(isAlive)
     renderGame()
   } else {
     messageEl.textContent = "You can't play cuz u don't have any money"
