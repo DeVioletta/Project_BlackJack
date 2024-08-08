@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-image: url("10081437.jpg");
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+  font-weight: bold;
+  background-size: cover;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#title{
+    font-size:3rem ;
+    color:goldenrod;
+    margin:1.2em 0 0;
+}
+
+#message-el, #winner-el{
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom:0 ;
+}
+
+#cards-title{
+    margin:3em 0 0;
+    font-size: 1.25rem;
+}
+
+#cards-el{
+    font-size: 1.25rem;
+}
+
+#sum-el{
+    margin:1em 0 2.5em;
+    font-size: 1.5rem;
+}
+
+button{
+    color: #016f32;
+    width: 45%;
+    max-width: 500px;
+    background: goldenrod;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    aspect-ratio: 20/2;
+}
+
+button:hover{
+    scale:1.05;
+    background: rgb(224, 186, 90);
+}
+#game-btn{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
+#balance-el{
+    position: absolute;
+    bottom: 10%;
+    font-size: 1.25rem;
+    border-bottom: 2px solid white;
+}
