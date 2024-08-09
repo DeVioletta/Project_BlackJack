@@ -18,7 +18,7 @@ body {
 }
 
 #message-el, #winner-el{
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-style: italic;
     margin-bottom:0 ;
     width:90%;
